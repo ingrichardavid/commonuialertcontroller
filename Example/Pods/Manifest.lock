@@ -1,0 +1,16 @@
+PODS:
+  - CommonUIAlertController (0.1.0)
+
+DEPENDENCIES:
+  - CommonUIAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  CommonUIAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonUIAlertController: 5c29e40c267fdef5af79769977dba3f81849d5df
+
+PODFILE CHECKSUM: 5b1421f5e436951e8b26bef1aa27220fe4a629ec
+
+COCOAPODS: 1.6.0

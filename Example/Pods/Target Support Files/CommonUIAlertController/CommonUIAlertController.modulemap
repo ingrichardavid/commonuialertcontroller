@@ -1,0 +1,6 @@
+framework module CommonUIAlertController {
+  umbrella header "CommonUIAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

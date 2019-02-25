@@ -1,0 +1,6 @@
+framework module Pods_CommonUIAlertController_Tests {
+  umbrella header "Pods-CommonUIAlertController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
