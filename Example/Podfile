@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CommonUIAlertController_Example' do
+  pod 'CommonUIAlertController', :path => '../'
+
+  target 'CommonUIAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
