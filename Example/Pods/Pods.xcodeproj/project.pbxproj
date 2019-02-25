@@ -13,9 +13,10 @@
 		3C6CD3210D552E3240603809062A88A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		477453D85229F95850CFE9C677062574 /* CommonUIAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1C411CE3AB9444A05A9C836D54A4D /* CommonUIAlertController-dummy.m */; };
 		5210F73A0C2F9FE6FAB8B328D9C64F5D /* CommonUIAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280EBCAACB0F9030D61A48F8E3FE13D8 /* CommonUIAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A868122223A95A00818B6A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 62A868102223A95A00818B6A /* .gitkeep */; };
+		62A868152223A97C00818B6A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A868142223A97C00818B6A /* UIViewController+Extension.swift */; };
 		65CD86881FB3F3AE4BB7FCD477483C9E /* Pods-CommonUIAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1790CA0F36827FB7C85EB908E2C9A2E /* Pods-CommonUIAlertController_Tests-dummy.m */; };
 		DBE6F3DAF5FA1AF71C286F12BCA2CD0B /* Pods-CommonUIAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F10A83659ECE0C8269ACDD3A82F6C68 /* Pods-CommonUIAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F00E47A1D37538463D7D8BD814166B80 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B78BC43A47E45AE880ED65A2DE02EB /* ReplaceMe.swift */; };
 		FA04D06CB71C049B15B233A59C98842C /* Pods-CommonUIAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA07CB82A474067AD0937D25DD42B60 /* Pods-CommonUIAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,29 +38,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04193AF85946EA272BCB7E6C8DABD771 /* Pods_CommonUIAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonUIAlertController_Example.framework; path = "Pods-CommonUIAlertController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04193AF85946EA272BCB7E6C8DABD771 /* Pods_CommonUIAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonUIAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9B39041DD0A3ED9ED15E678DE8983 /* Pods-CommonUIAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonUIAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B5B2C302DBA30B6BA5D3DDC5D67D8FF /* CommonUIAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonUIAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B5B2C302DBA30B6BA5D3DDC5D67D8FF /* CommonUIAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonUIAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F10A83659ECE0C8269ACDD3A82F6C68 /* Pods-CommonUIAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonUIAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		22630EFE46ECDFF796A6CD1E2D62EE66 /* Pods-CommonUIAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonUIAlertController_Example.modulemap"; sourceTree = "<group>"; };
 		280EBCAACB0F9030D61A48F8E3FE13D8 /* CommonUIAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonUIAlertController-umbrella.h"; sourceTree = "<group>"; };
 		2FEDAE3DBD8FEDD58B329BB6DD06A35C /* Pods-CommonUIAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonUIAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		37B78BC43A47E45AE880ED65A2DE02EB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CommonUIAlertController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3B4D39A2EB6AD12F9F8EF6E6143917CC /* Pods-CommonUIAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonUIAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BD879092E9B688236402F2E1DB8FAAD /* Pods-CommonUIAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonUIAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DAF4EDBF79908A8055915031B20DD48 /* Pods-CommonUIAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonUIAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		548EDE07C076973B2B7E2DEDE1924CE1 /* Pods-CommonUIAlertController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonUIAlertController_Example-Info.plist"; sourceTree = "<group>"; };
-		734019469C40EACBBA5B110B5267ADA7 /* CommonUIAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonUIAlertController.framework; path = CommonUIAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A868102223A95A00818B6A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		62A868142223A97C00818B6A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		734019469C40EACBBA5B110B5267ADA7 /* CommonUIAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUIAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D88B2994AB786548331918AED50690 /* CommonUIAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonUIAlertController.xcconfig; sourceTree = "<group>"; };
 		7B7AFC9207761B6F3E8350A1EBF77AC4 /* CommonUIAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonUIAlertController-Info.plist"; sourceTree = "<group>"; };
 		7D51BB06E0AA0E193C7A3009B7AF930C /* Pods-CommonUIAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonUIAlertController_Example-dummy.m"; sourceTree = "<group>"; };
-		81AF3B0DAD2DB84CA1DD7AFC8D9DB627 /* Pods_CommonUIAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonUIAlertController_Tests.framework; path = "Pods-CommonUIAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F7649D81F2CC6692A3FCB8B8D2AC0D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81AF3B0DAD2DB84CA1DD7AFC8D9DB627 /* Pods_CommonUIAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonUIAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7649D81F2CC6692A3FCB8B8D2AC0D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3AC14799BFA1A5BF122EDB126C2092A /* Pods-CommonUIAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonUIAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A43355091B2F5CAD9CAEBD84E7740806 /* CommonUIAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonUIAlertController-prefix.pch"; sourceTree = "<group>"; };
 		A48AA2627F272ADE090E8ACA3326F20F /* Pods-CommonUIAlertController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonUIAlertController_Tests-Info.plist"; sourceTree = "<group>"; };
-		B2291FD73BAA7F8C7B28E9B6053869CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B2291FD73BAA7F8C7B28E9B6053869CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2B1C411CE3AB9444A05A9C836D54A4D /* CommonUIAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonUIAlertController-dummy.m"; sourceTree = "<group>"; };
 		B6BBA61F3A305BC7B7E16EAA2BC5B82C /* CommonUIAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonUIAlertController.modulemap; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -140,10 +142,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		62A8680F2223A95A00818B6A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				62A868102223A95A00818B6A /* .gitkeep */,
+				62A868142223A97C00818B6A /* UIViewController+Extension.swift */,
+			);
+			name = Classes;
+			path = CommonUIAlertController/Classes;
+			sourceTree = "<group>";
+		};
 		75F2CDD2163DFCF6D70B2F0E33104504 /* CommonUIAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				37B78BC43A47E45AE880ED65A2DE02EB /* ReplaceMe.swift */,
+				62A8680F2223A95A00818B6A /* Classes */,
 				9693EADC001C4556F6C1AD5FBACC4C5D /* Pod */,
 				4B8AD3C61327C8B4AA8ABE5DBD0A526C /* Support Files */,
 			);
@@ -315,6 +327,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					040AB66FE3607FFB21FD33317B848BA8 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A868122223A95A00818B6A /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A868152223A97C00818B6A /* UIViewController+Extension.swift in Sources */,
 				477453D85229F95850CFE9C677062574 /* CommonUIAlertController-dummy.m in Sources */,
-				F00E47A1D37538463D7D8BD814166B80 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75D88B2994AB786548331918AED50690 /* CommonUIAlertController.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,6 +513,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -636,6 +656,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75D88B2994AB786548331918AED50690 /* CommonUIAlertController.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,8 +738,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
